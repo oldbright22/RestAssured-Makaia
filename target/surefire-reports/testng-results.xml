@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T22:34:37 PST" name="Suite" finished-at="2023-02-23T22:34:44 PST" duration-ms="6746">
+    <groups>
+    </groups>
+    <test started-at="2023-02-23T22:34:37 PST" name="Test" finished-at="2023-02-23T22:34:44 PST" duration-ms="6746">
+      <class name="tests.selenium.TC002_CreateIncidentAndGetFromRest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:36 PST" name="beforeSuite" finished-at="2023-02-23T22:34:37 PST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:37 PST" name="setValues" finished-at="2023-02-23T22:34:37 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:37 PST" name="beforeClass" finished-at="2023-02-23T22:34:37 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:37 PST" name="beforeMethod" finished-at="2023-02-23T22:34:41 PST" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createIncident(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:41 PST" name="createIncident" data-provider="fetchData" finished-at="2023-02-23T22:34:43 PST" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incident]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is automated test from Makaia data 1 to ServiceNow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIncident -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:43 PST" name="afterMethod" finished-at="2023-02-23T22:34:44 PST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.selenium.TC002_CreateIncidentAndGetFromRest@5e82df6a]" started-at="2023-02-23T22:34:44 PST" name="afterSuite" finished-at="2023-02-23T22:34:44 PST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.selenium.TC002_CreateIncidentAndGetFromRest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
